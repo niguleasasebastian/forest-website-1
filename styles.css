@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-header {
+  height: 80vh;
+  background: linear-gradient(rgba(15, 15, 15, 0.397), black),
+    url(art/forest.jpg) center center/cover;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.main-nav {
+  display: flex;
+  min-height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-ul {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.main-li {
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: rgb(117, 98, 98);
+}
+
+.donate {
+  padding: 1rem;
+  margin: auto;
+}
+
+.donate:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
