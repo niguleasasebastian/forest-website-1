@@ -1,15 +1,14 @@
+/* GENERALE
+ * GENERALE
+ * GENERALE
+ * GENERALE
+ */
+
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
   font-family: sans-serif;
-}
-
-.main-header {
-  height: 80vh;
-  background: linear-gradient(rgba(15, 15, 15, 0.397), black),
-    url(art/forest.jpg) center center/cover;
-  color: white;
 }
 
 a {
@@ -19,6 +18,19 @@ a {
 
 li {
   list-style: none;
+}
+
+/* MAIN SECTION
+ * MAIN SECTION
+ * MAIN SECTION
+ * MAIN SECTION
+ */
+
+.main-header {
+  height: 80vh;
+  background: linear-gradient(rgba(15, 15, 15, 0.397), black),
+    url(art/forest.jpg) center center/cover;
+  color: white;
 }
 
 .main-nav {
@@ -41,15 +53,93 @@ li {
 
 .btn {
   background-color: rgb(117, 98, 98);
+  align-self: center;
 }
 
 .donate {
   padding: 1rem;
   margin: auto;
+  height: 100%;
+  font-size: 20px;
 }
 
 .donate:hover {
   cursor: pointer;
   background-color: white;
   color: black;
+}
+
+.header-box {
+  width: 400px;
+  margin: 10rem auto;
+  text-align: center;
+}
+
+.main-helper {
+  font-size: 2rem;
+}
+
+.main-slogan {
+  font-size: 5rem;
+}
+
+.red-color-span {
+  color: red;
+}
+
+.see-story-a {
+  margin: 4rem 0 0 0;
+}
+
+.see-story-btn {
+  padding: 1rem 2rem;
+  background: red;
+  border-radius: 10px;
+}
+
+.see-story-btn:hover {
+  background-color: blue;
+}
+
+/* ABOUT SECTION
+ * ABOUT SECTION
+ * ABOUT SECTION
+ * ABOUT SECTION
+ */
+
+.about-title {
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+.about-sub-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0 3rem 3rem 0;
+}
+
+.about-image-section {
+  display: flex;
+  margin: 0 4rem 3rem 4rem;
+}
+
+.medium-image {
+  min-width: 500px;
+  min-height: 400px;
+  flex: 2;
+  background: url(art/forest.jpg) center center/cover;
+}
+
+.about-image-text {
+  text-align: center;
+  flex: 1;
+}
+
+.about-image-title {
+  margin: 2rem 0;
+}
+
+.about-paragraph {
+  width: 600px;
 }
